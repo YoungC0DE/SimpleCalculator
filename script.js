@@ -35,13 +35,13 @@ buttons.forEach(button => {
 
         if (!specialKeys.includes(button.textContent)) {
             pendentOperation = false
-            if(currentNumber.textContent == '0') currentNumber.textContent = button.textContent
+            if (currentNumber.textContent == '0') currentNumber.textContent = button.textContent
             else currentNumber.textContent += button.textContent
         }
 
         if (specialKeys.includes(button.textContent)) {
             let validate = pendentOperation == false && currentNumber.textContent != '0'
-            
+
             if (button.textContent == "+" && validate) operationResult('+')
             if (button.textContent == "-" && validate) operationResult('-')
             if (button.textContent == "x" && validate) operationResult('*')
