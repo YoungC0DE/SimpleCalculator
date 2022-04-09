@@ -1,17 +1,18 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: sans-serif
+    font-family: 'Quicksand', sans-serif;
 }
 
 main {
     display: flex;
-    height: 100vh;
-    width: 100%;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-image: url(Images/fundo.jpg);
     background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
 
 div.content {
@@ -19,7 +20,7 @@ div.content {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    background: #00000036;
+    background: #00000069;
     backdrop-filter: blur(8px);
     border-radius: 4px;
     width: 250px;
@@ -33,12 +34,23 @@ div.operationScreen {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: center;
-    padding: 0px 10px 0px 0px;
+    flex-wrap: nowrap;
+    height: 60px;
+    width: auto;
+    padding: 0 10px 0 0;
+    overflow-x: auto;
+    color: #ffffff;
+    justify-content: space-evenly;
+}
+
+div.operationScreen p {
+    color: rgba(255, 255, 255, 0.735);
+    font-size: 10pt;
+}
+
+div.operationScreen h2 {
     color: white;
+    font-size: 16pt;
 }
 
 section.grade {
@@ -50,7 +62,8 @@ section.grade {
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 1px;
 }
 
 button.button {

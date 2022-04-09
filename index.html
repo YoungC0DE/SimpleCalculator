@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
@@ -13,8 +16,8 @@
     <main>
         <div class="content">
             <div class="operationScreen">
-                <p id="cacheNumber">0.00</p>
-                <h1 id="currentNumber">0.00</h1>
+                <p id="cacheNumber"></p>
+                <h2 id="currentNumber">0</h2>
             </div>
             <section class="grade">
                 <!-- linha 1 -->
@@ -27,13 +30,13 @@
                 <button class="button">₠</button>
                 <button class="button">C</button>
                 <button class="button">⌫</button>
-                <button class="button">÷</button>
+                <button class="button">/</button>
 
                 <!-- linha 3 -->
                 <button class="button numbers">7</button>
                 <button class="button numbers">8</button>
                 <button class="button numbers">9</button>
-                <button class="button">X</button>
+                <button class="button">x</button>
 
                 <!-- linha 4 -->
                 <button class="button numbers">4</button>
@@ -50,7 +53,7 @@
                 <!-- linha 6 -->
                 <button class="button">±</button>
                 <button class="button numbers">0</button>
-                <button class="button">,</button>
+                <button class="button">.</button>
                 <button class="button">=</button>
             </section>
         </div>
