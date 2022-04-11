@@ -23,10 +23,10 @@ div.content {
     background: #00000069;
     backdrop-filter: blur(8px);
     border-radius: 4px;
-    width: 250px;
-    min-width: 250px;
-    height: auto;
-    padding: 50px 10px;
+    width: 300px;
+    min-width: 300px;
+    height: 400px;
+    padding: 40px 10px;
     box-shadow: 0px 0px 0px 1px #ffffff17;
 }
 
@@ -36,21 +36,21 @@ div.operationScreen {
     align-items: flex-end;
     flex-wrap: nowrap;
     height: 60px;
+    padding: 0 20px 10px 0;
     width: auto;
-    padding: 0 10px 0 0;
     overflow-x: auto;
     color: #ffffff;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 div.operationScreen p {
     color: rgba(255, 255, 255, 0.735);
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 div.operationScreen h2 {
     color: white;
-    font-size: 16pt;
+    font-size: 24pt;
 }
 
 section.grade {
@@ -62,20 +62,21 @@ section.grade {
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 1px;
 }
 
 button.button {
     border: none;
     background: #0000004a;
-    height: 40px;
-    width: 60px;
-    min-height: 40px;
-    min-width: 60px;
+    height: 50px;
+    width: 70px;
+    min-height: 50px;
+    min-width: 70px;
     margin: 1px;
     border-radius: 2px;
     color: white;
+    font-size: 12pt;
 }
 
 .numbers {
