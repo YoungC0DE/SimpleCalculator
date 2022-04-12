@@ -1,7 +1,14 @@
 const cacheNumber = document.getElementById('cacheNumber'),
     currentNumber = document.getElementById('currentNumber'),
-    buttons = document.querySelectorAll('.grade button')
+    buttons = document.querySelectorAll('.grade button'),
+    // Botões pra mudar tema.
+    theme1 = document.getElementById("theme1"),
+    theme2 = document.getElementById("theme2"),
+    theme3 = document.getElementById("theme3"),
+    main = document.querySelector("main")
 
+
+// Caracteres de operações matemáticas.
 const specialKeys =
     [
         '√', 'Χ²',
@@ -143,4 +150,32 @@ buttons.forEach(button => {
 
         }
     })
+})
+
+// Função pra remover classes de tema.
+const clearTheme = () => {
+    theme1.classList.remove("selectedTheme")
+    theme2.classList.remove("selectedTheme")
+    theme3.classList.remove("selectedTheme")
+
+    main.classList.remove("main1", "main2", "main3")
+}
+
+// Funções pra mudar tema.
+theme1.addEventListener('click', () => {
+    clearTheme()
+    main.classList.add("main1")
+    theme1.classList.add("selectedTheme")
+})
+
+theme2.addEventListener('click', () => {
+    clearTheme()
+    main.classList.add("main2")
+    theme2.classList.add("selectedTheme")
+})
+
+theme3.addEventListener('click', () => {
+    clearTheme()
+    main.classList.add("main3")
+    theme3.classList.add("selectedTheme")
 })
