@@ -48,9 +48,14 @@ div.content1 {
     margin-right: 1px;
 }
 
-.content1 span:hover {cursor: pointer; color: rgba(255, 255, 255, 0.582);}
+.content1 span:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.582);
+}
 
-.selectedTheme {background: #00000096 !important}
+.selectedTheme {
+    background: #00000096 !important
+}
 
 .content1 div {
     display: flex;
