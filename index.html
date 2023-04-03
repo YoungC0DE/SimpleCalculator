@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,69 +8,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./StyleThemes/theme1.css" defer>
-    <link rel="stylesheet" href="./StyleThemes/theme2.css" defer>
-    <link rel="stylesheet" href="./StyleThemes/theme3.css" defer>
-    <title>Calculadora</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Simple Calculator</title>
 </head>
 
 <body>
-    <main class="main1">
-        <div class="content1">
-            <!-- Temas -->
+    <main class="main theme1">
+        <div class="content">
+            <!-- Themes -->
             <header>
                 <span id="theme1" class="selectedTheme">Light</span>
                 <span id="theme2">Neon</span>
                 <span id="theme3">Dark</span>
             </header>
 
-            <!-- Visor -->
+            <!-- Operation -->
             <div>
                 <p id="cacheNumber"></p>
                 <h2 id="currentNumber">0</h2>
             </div>
 
             <section class="grade">
-                <!-- linha 1 -->
+                <!-- line 1 -->
                 <button>%</button>
                 <button>√</button>
                 <button>Χ²</button>
                 <button>⅟</button>
 
-                <!-- linha 2 -->
+                <!-- line 2 -->
                 <button>₠</button>
                 <button>C</button>
                 <button>⌫</button>
                 <button>/</button>
 
-                <!-- linha 3 -->
-                <button class="numbers1 numbers2 numbers3">7</button>
-                <button class="numbers1 numbers2 numbers3">8</button>
-                <button class="numbers1 numbers2 numbers3">9</button>
+                <!-- line 3 -->
+                <button class="numbers">7</button>
+                <button class="numbers">8</button>
+                <button class="numbers">9</button>
                 <button>x</button>
 
-                <!-- linha 4 -->
-                <button class="numbers1 numbers2 numbers3">4</button>
-                <button class="numbers1 numbers2 numbers3">5</button>
-                <button class="numbers1 numbers2 numbers3">6</button>
+                <!-- line 4 -->
+                <button class="numbers">4</button>
+                <button class="numbers">5</button>
+                <button class="numbers">6</button>
                 <button>-</button>
 
-                <!-- linha 5 -->
-                <button class="numbers1 numbers2 numbers3">1</button>
-                <button class="numbers1 numbers2 numbers3">2</button>
-                <button class="numbers1 numbers2 numbers3">3</button>
+                <!-- line 5 -->
+                <button class="numbers">1</button>
+                <button class="numbers">2</button>
+                <button class="numbers">3</button>
                 <button>+</button>
 
-                <!-- linha 6 -->
+                <!-- line 6 -->
                 <button>±</button>
-                <button class="numbers1 numbers2 numbers3">0</button>
+                <button class="numbers">0</button>
                 <button>.</button>
                 <button>=</button>
 
             </section>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="./Public/script.js"></script>
 </body>
 
 </html>

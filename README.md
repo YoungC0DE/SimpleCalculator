@@ -1,18 +1,18 @@
-# Calculadora Web 👨‍🏫
+# Simple Calculator 👨‍🏫
 
-Calculadora comum em sua funcionalidade, porém possue um design intuitivo e moderno.
+> Common calculator in its functionality, 
+> however it has an intuitive and modern design.
 
-Linguagens utilizadas:
+Technologies used:
 
 - HTML5,
 - CSS3,
-- JavaScript.
+- JavaScript Vanilla.
 
 ## 
 <div align='center'>
 <img src="https://github.com/YoungC0DE/calculadoraWeb/blob/main/Images/forGit.png" width="300">
 
-Acesse por aqui: [CalculadoraWeb](https://youngc0de.github.io/calculadoraWeb/).
+Access here: [SimpleCalculator](https://youngc0de.github.io/simple-calculator/).
 
-**Projeto ainda em desenvolvimento**
 </div>
