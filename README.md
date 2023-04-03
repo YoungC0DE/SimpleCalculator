@@ -13,6 +13,6 @@ Technologies used:
 <div align='center'>
 <img src="https://github.com/YoungC0DE/calculadoraWeb/blob/main/Assets/forGit.png" width="300">
 
-Access here: [SimpleCalculator](https://youngc0de.github.io/simple-calculator/).
+Access here: [SimpleCalculator](https://youngc0de.github.io/SimpleCalculator/).
 
 </div>
